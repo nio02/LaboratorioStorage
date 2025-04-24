@@ -7,7 +7,8 @@ function addTask(task, complete){
     contenedor.classList.add('item-tarea');
 
     const botonCompletar = document.createElement('button');
-    botonCompletar.textContent = "Completar";
+    botonCompletar.classList.add('boton-completar')
+    botonCompletar.textContent = "v";
 
     //Se debe agregar el evento aqui, ya que despues no lo reconocera
     botonCompletar.addEventListener('click', () => {  
@@ -23,7 +24,7 @@ function addTask(task, complete){
     texto.textContent = task;
 
     const botonEliminar = document.createElement('button');
-    botonCompletar.classList.add('btn-completar')
+    botonEliminar.classList.add('btn-eliminar')
     botonEliminar.textContent = 'Eliminar';
 
     //Se debe agregar el evento aqui, ya que despues no lo reconocera
@@ -130,7 +131,8 @@ function crearTareasStorage(task, complete){
     contenedor.classList.add('item-tarea');
 
     const botonCompletar = document.createElement('button');
-    botonCompletar.textContent = "Completar";
+    botonCompletar.classList.add('boton-completar')
+    botonCompletar.textContent = "v";
 
     //Se debe agregar el evento aqui, ya que despues no lo reconocera
     botonCompletar.addEventListener('click', () => {  
@@ -150,7 +152,7 @@ function crearTareasStorage(task, complete){
     texto.textContent = task;
 
     const botonEliminar = document.createElement('button');
-    botonCompletar.classList.add('btn-completar')
+    botonEliminar.classList.add('btn-eliminar')
     botonEliminar.textContent = 'Eliminar';
 
     //Se debe agregar el evento aqui, ya que despues no lo reconocera
