@@ -43,6 +43,10 @@ input {
     font-weight: 700;
 }
 
+#agregar-tarea:active {
+    background-color: #007bff;
+}
+
 .borrar-contenedor {
     display: flex;
     justify-content: center;
@@ -53,13 +57,17 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: red;
+    background-color: #dc3545;
     color: white;
     border-radius: 20px;
     padding: 5px 20px;
     font-weight: 900;
     border: 0;
     cursor: pointer;
+}
+
+#borrar-todo:active {
+    background-color: red;
 }
 
 .lista {
@@ -109,4 +117,8 @@ input {
     margin-right: 20px;
     cursor: pointer;
     padding: 5px 10px;
+}
+
+.btn-eliminar:active {
+    background-color: red;
 }
