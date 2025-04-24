@@ -20,7 +20,7 @@ function addTask(task, complete){
     });
 
     const texto = document.createElement('p');
-    texto.classList.add('tareaIncompleta');
+    texto.classList.add('tarea');
     texto.textContent = task;
 
     const botonEliminar = document.createElement('button');
