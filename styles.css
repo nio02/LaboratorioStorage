@@ -6,6 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Roboto';
+    background-color: #e6f0fa;
 }
 
 .contenedor {
@@ -20,6 +21,28 @@ form {
     justify-content: center;
 }
 
+form:focus {
+    box-shadow: 4px 4px 10px black;
+}
+
+input {
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 5px 20px;
+    margin-right: 25px;
+    font-size: inherit;
+}
+
+#agregar-tarea {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 20px;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
 .borrar-contenedor {
     display: flex;
     justify-content: center;
@@ -29,8 +52,14 @@ form {
     margin-top: 15px;
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: red;
-    width: 10vw;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-weight: 900;
+    border: 0;
+    cursor: pointer;
 }
 
 .lista {
@@ -49,6 +78,7 @@ form {
     border: 1px solid red;
     border-radius: 20px;
     width: 500px;
+    background-color: white;
 }
 
 .lista p{
@@ -78,4 +108,5 @@ form {
     border-radius: 20px;
     margin-right: 20px;
     cursor: pointer;
+    padding: 5px 10px;
 }
